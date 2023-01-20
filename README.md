@@ -15,5 +15,6 @@ Open second terminal and enter:
 python3 -m http.server 8866 - use, this command, being in catalogue with project you want to open.
 Check: localhost:8866
 In third terminal type:(can be also first )
+
 ssh -R 14422:localhost:8866 -p4422 root@yoko.ukrtux.com - make reverse connection from yoko.ukrtux on your localhost 8866.
 Check: yoko.ukrtux.com:14422 (DONT WORK)
